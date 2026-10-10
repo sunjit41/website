@@ -1,0 +1,59 @@
+name: 🚀 Deploy Website to Bluehost
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  web-deploy:
+    name: Sync Files via FTP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get latest repository code
+        uses: actions/checkout@v4
+
+
+      # 🛠️ Dynamically build config.php with ONLY your 4 constants
+      - name: Create production config.php
+        run: |
+          cat << 'EOF' > public_html/classes/config.php
+          <?php
+          /**
+           * Production Configuration
+           * Generated automatically by GitHub Actions workflow.
+           */
+
+          define('DB_SERVER_NAME', '${{ secrets.DB_HOST }}');
+          define('DB_NAME', '${{ secrets.DB_NAME }}');
+          define('DB_USER_NAME', '${{ secrets.DB_USER }}');
+          define('DB_PASSWORD', '${{ secrets.DB_PASS }}');
+
+          define('QUOTES_TABLE', '${{ secrets.T1 }}');
+          define('APPS_TABLE', '${{ secrets.T2 }}');
+          define('KERALA_TABLE', '${{ secrets.T3 }}');
+          define('SCREEN_TABLE', '${{ secrets.T4 }}');
+          define('SOFTWARE_TABLE', '${{ secrets.T5 }}');
+          ?>
+          EOF
+        
+      - name: Sync files to Bluehost server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # Where to put files on Bluehost. 
+          # For your primary website, this is usually public_html/
+          server-dir: './'
+          exclude: |
+            **/.well-known/**
+            **/google*.html
+            **/README.md
+            **/.gitignore
+            **/.gitattributes
+            **/LICENSE*
+            .git/**
+            .github/**

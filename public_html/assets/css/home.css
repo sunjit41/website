@@ -1,0 +1,501 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:root {
+  /* Color Palette */
+  --primary-color: white;
+  --secondary-color: black;
+  --background-color1: #0f172a;
+  --background-color2: #282A35;
+  --body-color: #008080;  
+  --text-color: #212529;
+
+  /* Typography */
+  --font-main: 'Helvetica Neue', Arial, sans-serif;
+  --font-size-base: 16px;
+
+  /* Spacing & Layout */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --border-radius: 4px;
+}
+
+html {
+    /*overflow-x: clip;*/
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background-color: var(--body-color);
+    /*overflow-x: hidden;*/
+}
+
+body {
+    /*overflow-x: clip;*/
+    margin: 0;
+    padding: 0px;
+    font-family: var(--font-main);
+    font-size: 1.0rem;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    margin-left: 0;
+    /* Centers the container */
+    margin-right: auto;
+    width: 100%;
+    /* Ensures it fills the space on smaller screens */
+}
+
+/* 1. Full-width Outer Wrapper */
+.outer {
+    width: 100%;
+    /*background-color: #FFF8DC;*/
+    background-color: #0f172a;
+    padding: 4px;
+}
+
+/* 2. Constrained Inner Container */
+.inner {
+    max-width: 1300px;
+    margin-inline: auto;
+    /* Centers the div */
+    padding: 0 20px;
+    /* Padding so content doesn't hit screen edges on mobile */
+}
+
+.groups
+{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 12px;
+    padding: 20px;
+}
+#SoftwareGroup1
+{
+    display: none;
+    padding: 10px;
+    border-radius: 12px;    
+}
+
+#SoftwareGroup1.show
+{
+    display: block;
+    border-radius: 12px;
+    
+}
+#SoftwareGroup2
+{
+    display: none;
+    padding: 10px;
+    border-radius: 12px;       
+}
+
+#SoftwareGroup2.show
+{
+    display: block;
+    border-radius: 12px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.stay-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 70px;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Desktop Links */
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+    padding: 1rem 2rem;
+    letter-spacing: 1.5px;
+}
+
+.nav-menu li a:hover {
+    color: black;
+    background-color: #008080;
+}
+
+/* Sandwich Button (hidden on desktop) */
+.sandwich-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid silver;
+}
+
+.main-logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* 1. The Multi-color Gradient */
+    /* Note: We start and end with the same color (#ff8a00) for a seamless loop */
+    background: linear-gradient(to right,
+            #ff8a00,
+            #e52e71,
+            #8a2be2,
+            #00d4ff,
+            #ff8a00);
+
+    /* 2. Make the background wider than the text so we can move it */
+    background-size: 200% auto;
+
+    /* 3. Clip the background to the text and make text transparent */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+    animation: moveGradient 4s linear infinite;
+}
+
+/* 5. Define the movement */
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+/* Responsive font size for smaller screens */
+@media (max-width: 600px) {
+    .animated-text {
+        font-size: 3rem;
+    }
+}
+
+.green-link {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    white-space: normal;
+}
+
+.green-link:hover {
+    color: black;
+    font-weight: bold;
+    background-color: silver;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
+}
+
+.green-link-dark {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.green-link-dark:hover {
+    color: black;
+    font-weight: bold;
+    background-color: silver;
+    box-shadow: 0 4px 8px rgba(235, 1, 1, 0.8);
+}
+
+/* Update the .row class to include background, shadow, and padding */
+.row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    /* Space between the shadowed boxes */
+    background-color: white;
+    color: black;
+    /* White background to make the shadow pop */
+    padding: 40px;
+    border-radius: 12px;
+    /* Rounded corners for a modern look */
+
+    /* Modern Soft Shadow: X-offset Y-offset Blur Spread Color */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    /* Optional: smooth hover effect */
+    animation: fadeIn linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/* Optional: Slight lift effect when hovering over a section */
+.row:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* 4. Alternating Logic */
+.row.reverse {
+    flex-direction: row-reverse;
+}
+
+/* 5. Inner Column Logic */
+.row-content {
+    flex: 3;
+}
+
+.image-box {
+    flex: 1;
+    /* Both divs take up 50% width of the 1200px inner div */
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 100%;
+    text-align: right;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+/* 6. Responsive Mobile Fix */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        /* Hide standard links */
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 50px;
+        /* Height of the nav */
+        left: 0;
+        text-align: center;
+        border-top: 1px solid #444;
+    }
+
+    /* Show menu when active class is added */
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        padding: 15px 0;
+    }
+
+    .sandwich-btn {
+        display: block;
+        /* Show sandwich on mobile */
+    }
+
+    .row,
+    .row.reverse {
+        flex-direction: column;
+        /* Stack vertically on small screens */
+        text-align: center;
+    }
+
+}
+
+
+
+
+.socialmedia {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: #1877F2;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.video-container {
+    width: 100%;
+    background-color: #282A35;
+    height: 85vh;
+    /* Set desired height, e.g., full viewport height */
+    overflow: hidden;
+    /* Crops the edges when resizing */
+    position: relative;
+}
+
+.back-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    /* Keeps center in focus */
+    object-fit: cover;
+    /* Ensures video covers area without distortion */
+}
+
+.modern-quote {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.6;
+    /*color: white;*/
+    border-left: 5px solid #474242;
+    /* A nice blue accent line */
+    margin: 20px 0;
+    padding: 15px 25px;
+    background-color: #282A35;
+}
+
+.modern-quote footer {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.0rem;
+    font-style: normal;
+    font-weight: bold;
+    /* color: whitesmoke; */
+    margin-top: 10px;
+    text-align: right;
+    /* Aligns the author's name to the right */
+}
+
+
+:root {
+    --logo-width: 150px;
+    --logo-gap: 60px;
+}
+
+.slider-viewport {
+    width: 100%;
+    overflow: hidden;
+    background: #282A35;
+    padding: 50px 0;
+    cursor: grab;
+    position: relative;
+    user-select: none;
+    border-top: 1px solid #282A35;
+}
+
+.slider-track {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+}
+
+.logo-item {
+    width: var(--logo-width);
+    margin: 0 var(--logo-gap);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+/* Fade edges */
+.slider-viewport::before,
+.slider-viewport::after {
+    content: "";
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+}
