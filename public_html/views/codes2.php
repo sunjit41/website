@@ -13,7 +13,7 @@
             <h2>Computer Graphics programming in C++ using GLUT & Codeblocks</h2>
             <hr style="border-top: 1px solid white;">
             <section class="content"
-                style="border-radius: 12px; color: #282A35; background-image: url('/images/bg4.jpg');">
+                style="border-radius: 12px; color: #282A35; background-image: url('/assets/images/bg4.jpg');">
                 <div
                     style="box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); width: 100%; background-color:aqua; padding:10px; border-radius: 12px;">
                     <h3>1.) CASA 2D </h3>
@@ -230,7 +230,7 @@ void drawLabels()
             </section>
             <hr style="border-top: 1px solid #282A35;">
             <section class="content"
-                style="border-radius: 12px; color: #282A35; background-image: url('/images/bg4.jpg');">
+                style="border-radius: 12px; color: #282A35; background-image: url('/assets/images/bg4.jpg');">
                 <div
                     style="box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); width: 100%; background-color:aqua; padding:10px; border-radius: 12px;">
                     <h3>2.) Mobile 3D Rotate</h3>
@@ -443,7 +443,7 @@ void idle()
             </section>
             <hr style="border-top: 1px solid #282A35;">
             <section class="content"
-                style="border-radius: 12px; color: #282A35; background-image: url('/images/bg4.jpg');">
+                style="border-radius: 12px; color: #282A35; background-image: url('/assets/images/bg4.jpg');">
                 <div
                     style="box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); width: 100%; background-color:aqua; padding:10px; border-radius: 12px;">
                     <h3>3.) Camera Movement </h3>

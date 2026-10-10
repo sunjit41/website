@@ -21,7 +21,7 @@
 
                     <div class="div-table-row" role="row">
                         <div class="div-table-col">
-                            <img src="images/badges/bsc.webp" class="product-img" alt="Graduation">
+                            <img src="/assets/images/badges/bsc.webp" class="product-img" alt="Graduation">
                         </div>
                         <div class="div-table-col description-text">
                             <h3>Bachelors Degree in Computer Science</h3>
@@ -55,7 +55,7 @@
 
                     <div class="div-table-row" role="row">
                         <div class="div-table-col">
-                            <img src="images/badges/mlearn.webp" class="product-img" alt="Microsoft Learn">
+                            <img src="/assets/images/badges/mlearn.webp" class="product-img" alt="Microsoft Learn">
                         </div>
                         <div class="div-table-col description-text">
                             <h3>Microsoft Learn</h3>
@@ -81,7 +81,7 @@
 
                     <div class="div-table-row" role="row">
                         <div class="div-table-col">
-                            <img src="images/badges/skills.webp" class="product-img" alt="Microsoft Applied skills">
+                            <img src="/assets/images/badges/skills.webp" class="product-img" alt="Microsoft Applied skills">
                         </div>
                         <div class="div-table-col description-text">
                             <h3>Applied Skills</h3>
@@ -102,7 +102,7 @@
 
                     <div class="div-table-row" role="row">
                         <div class="div-table-col">
-                            <img src="images/badges/fundamentals.webp" class="product-img" alt="Microsoft Fundamentals">
+                            <img src="/assets/images/badges/fundamentals.webp" class="product-img" alt="Microsoft Fundamentals">
                         </div>
                         <div class="div-table-col description-text">
                             <h3>Microsoft Certification</h3>

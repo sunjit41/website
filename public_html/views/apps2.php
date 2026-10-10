@@ -62,7 +62,7 @@ if (count($exploded[0]) > 2) {
             <?php
             ?>
 
-            <section class="row" style="background-image: url('/images/bg4.jpg'); color:black">
+            <section class="row" style="background-image: url('/assets/images/bg4.jpg'); color:black">
                 <div class="content">
                     <h3>About -
                         <?php echo $obj->appName; ?>
@@ -76,7 +76,7 @@ if (count($exploded[0]) > 2) {
                 </div>
             </section>
 
-            <section class="row" style="overflow: hidden; background-image: url('/images/bg4.jpg'); color:black">
+            <section class="row" style="overflow: hidden; background-image: url('/assets/images/bg4.jpg'); color:black">
                 <div class="column">
                     <div style="background-color: teal; color: white; margin: 0; padding: 15px 20px;">
                         <h3>Software details</h3>
@@ -176,7 +176,7 @@ if (count($exploded[0]) > 2) {
                         else {
                             echo "No Records";
                             ?>
-                        <p><img src="\images\apps\app1.png" height="50" width="50" alt="Coming Soon"><b><a
+                        <p><img src="/assets/images/apps/app1.png" height="50" width="50" alt="Coming Soon"><b><a
                                     href="javascript:Updating();" class="blue-link-dark">Coming Soon</a></b></p>
                         <?php
                         }

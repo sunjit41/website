@@ -5,8 +5,8 @@
 <head>
     <title>Sunjit41 - Error</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/error.css">
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" type="text/css" href="/assets/css/error.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 </head>
 
 <body style="background-color: #008080;">
