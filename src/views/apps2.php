@@ -1,6 +1,4 @@
 <?php
-include_once 'classes/software.php';
-include 'classes/database.php';
 
 $path = $_SERVER["REQUEST_URI"];
 //echo 'path = '.$path;

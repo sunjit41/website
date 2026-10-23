@@ -1,6 +1,4 @@
 <?php 
-include_once 'classes/quote.php';
-include 'classes/database.php';
     $obj = new Quote();
     $db = new MyDatabase();
     $obj = $db->getQuote();
@@ -449,14 +447,14 @@ include 'classes/database.php';
                 <line class="matrix-line" x1="0" y1="8" x2="100" y2="8" />
             </svg>
             <section
-                style="padding:20px; margin-top: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(196, 173, 173, 0.1); background-image: url('/images/bg4.jpg'); background-color:#FFFFFF; color:black;">
+                style="padding:20px; margin-top: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(196, 173, 173, 0.1); background-image: url('/assets/images/bg4.jpg'); background-color:#FFFFFF; color:black;">
 
                 <h3>Computer Graphics Programming in C++ using GLUT & Codeblocks</h3>
                 <p>Programming Language : C++ <br>IDE : CodeBlocks<br>Tools used : GLUT (OpenGL Utility Toolkit)</p>
                 <p><a class="green-link-dark" href="/codes">Go to Coding</a></p>
             </section>
             <section
-                style="padding:20px;margin-top: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(196, 173, 173, 0.1); background-image: url('/images/bg4.jpg'); background-color:#FFFFFF; color:black;">
+                style="padding:20px;margin-top: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(196, 173, 173, 0.1); background-image: url('/assets/images/bg4.jpg'); background-color:#FFFFFF; color:black;">
                 <h3>Visual studio projects using C#.Net</h3>
                 <p>Programming Language : C# <br>IDE : Visual Studio<br>Projects : Database CRUD operations, Multi
                     Threading, Fetching IP details, and much more ...</p>
@@ -493,7 +491,7 @@ include 'classes/database.php';
                 <line class="matrix-line" x1="0" y1="8" x2="100" y2="8" />
             </svg>
             <section
-                style="background-color:#FFE6E8; justify-content: center; padding:20px;margin-top: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); background-image: url('/images/bg4.jpg'); text-align:center">
+                style="background-color:#FFE6E8; justify-content: center; padding:20px;margin-top: 20px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); background-image: url('/assets/images/bg4.jpg'); text-align:center">
 
                 <h3><b>E-Mail Address</b></h3>
                 <p>sunjit41@yahoo.com <span>&bullet;</span> sunjit41@gmail.com <span>&bullet;</span>

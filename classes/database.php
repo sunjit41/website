@@ -1,8 +1,4 @@
 <?php
-include_once "classes/software.php";
-include_once "classes/quote.php";
-include_once "classes/config.php";
-
 class MyDatabase
 {
     private $serverName;

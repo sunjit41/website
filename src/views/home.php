@@ -29,8 +29,8 @@
   </header>
   <main>
     <?php
-    require('views/home2.php');
-    require('views/footer.php');
+    require('home2.php');
+    require('footer.php');
     ?>
     <script>
       function toggleNav() {

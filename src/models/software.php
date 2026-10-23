@@ -11,7 +11,7 @@ class AppLink
     function __construct()
     {
         $this->displayText = "Coming Soon";
-        $this->imagePath = "/images/apps/app1.PNG";
+        $this->imagePath = "/assets/images/apps/app1.PNG";
         $this->linkPath ="javascript:Updating();";
         $this->linkType = "500";
         $this->hasRows = false; 
@@ -30,7 +30,7 @@ class ScreeShot
     {
         $this->screenID = "0";
         $this->appID = "0";
-        $this->src ="/images/apps/app1.PNG";
+        $this->src ="/assets/images/apps/app1.PNG";
         $this->order = "0";
         $this->enabled = "0";
     }
@@ -71,12 +71,12 @@ class Software{
         $this->link = "#";
         $this->para1 = "Paragraph 1";
         $this->para2 = "Paragraph 2";
-        $this->image1 = "/images/apps/gl1.PNG";
-        $this->image2 = "/images/apps/gl2.PNG";
-        $this->image3 = "/images/apps/gl3.PNG";
-        $this->image4 = "/images/apps/gl4.PNG";
-        $this->image5 = "/images/apps/gl5.PNG";
-        $this->image6 = "/images/apps/gl6.PNG";
+        $this->image1 = "/assets/images/apps/gl1.PNG";
+        $this->image2 = "/assets/images/apps/gl2.PNG";
+        $this->image3 = "/assets/images/apps/gl3.PNG";
+        $this->image4 = "/assets/images/apps/gl4.PNG";
+        $this->image5 = "/assets/images/apps/gl5.PNG";
+        $this->image6 = "/assets/images/apps/gl6.PNG";
         $this->hasRows = false;
 
     }    

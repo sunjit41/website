@@ -24,8 +24,8 @@
     </header>
     <main>
     <?php
-    require('views/certs2.php');
-    require('views/footer.php');
+    require('certs2.php');
+    require('footer.php');
     ?>
         <script>
             function toggleNav() {

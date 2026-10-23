@@ -20,15 +20,17 @@ class Router{
             }
         }
         //echo "Router did not Dispatch";
+
+        /*
         session_start();
         $_SESSION['errornum'] = "404 - Resource not Found";
         $_SESSION['request_uri'] = $_SERVER["REQUEST_URI"];
         $_SESSION['sunerror'] = "Router did not dispatch.";
         require "views/error404.php";
+        */
+        
         //header("Location: /error");
         //exit;
-
-        
     }
 }
 ?>

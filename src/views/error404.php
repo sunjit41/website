@@ -78,7 +78,7 @@
             <path id="wavepath2" d="M0,0  L130, 0C35,150 25,0 0,100z" fill="#FFE6E8"></path>
         </svg>        
     </main>
-    <?php require('views/footer.php');?>
+    <?php require('footer.php');?>
 </body>
 
 </html>

@@ -18,8 +18,8 @@
     </header>  
 <main>
 <?php
-require('views/codes2.php');
-require('views/footer.php');
+require('codes2.php');
+require('footer.php');
 ?>
 </main>
 </body>
