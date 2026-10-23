@@ -19,7 +19,7 @@ jobs:
       # 🛠️ Dynamically build config.php with ONLY your 4 constants
       - name: Create production config.php
         run: |
-          cat << 'EOF' > public_html/classes/config.php
+          cat << 'EOF' > classes/config.php
           <?php
           /**
            * Production Configuration
