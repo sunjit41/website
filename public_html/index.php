@@ -3,6 +3,7 @@ $path = strtolower(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH));
 
 session_start();
 
+// Load required files
 require_once __DIR__ . '/../src/router.php';
 require_once __DIR__ . '/../classes/database.php';
 require_once __DIR__ . '/../src/models/quote.php';
