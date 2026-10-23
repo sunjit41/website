@@ -12,6 +12,7 @@ require_once __DIR__ . '/../classes/config.php';
 
 
 $router = new Router;
+// Define routes
 
 $router->add("/", function() {
     require __DIR__ ."/../src/views/home.php";
