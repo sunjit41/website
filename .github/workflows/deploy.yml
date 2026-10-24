@@ -1,16 +1,17 @@
 name: 🚀 Deploy Website to Bluehost
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
-    branches:
+    types: [closed]
+    branches: 
       - main
-  workflow_dispatch:
 
 jobs:
   web-deploy:
+
+    # This job will only run if the pull request is merged into the main branch
+    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'develop'
+
     name: Sync Files via FTP
     runs-on: ubuntu-latest
 
