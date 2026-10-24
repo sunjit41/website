@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Get latest repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
 
       # 🛠️ Dynamically build config.php with ONLY your 4 constants
