@@ -102,10 +102,44 @@
 
                     <div class="div-table-row" role="row">
                         <div class="div-table-col">
+                            <img src="/assets/images/badges/expert.webp" class="product-img" alt="Microsoft Expert">
+                        </div>
+                        <div class="div-table-col description-text">
+                            <h3>Microsoft Expert Certifications</h3>
+                            <ul>
+                                <li>Agentic AI Business Solutions Architect Expert(AB-100)</li>
+                            </ul>
+                        </div>
+                        <div class="div-table-col">
+                            <a href="https://learn.microsoft.com/en-us/users/sunjit41/transcript/vjo2jh4n9g3j289"
+                                class="blue-link" target="_blank">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="div-table-row" role="row">
+                        <div class="div-table-col">
+                            <img src="/assets/images/badges/associate.webp" class="product-img" alt="Microsoft Associate">
+                        </div>
+                        <div class="div-table-col description-text">
+                            <h3>Microsoft Intermediate Certifications</h3>
+                            <ul>
+                                <li>Azure AI Apps and Agents Developer Associate (AI-103)</li>
+                                <li>Azure AI Cloud Developer Associate (AI-200)</li>
+                                <li>SQL AI Developer Associate (DP-800)</li>
+                            </ul>
+                        </div>
+                        <div class="div-table-col">
+                            <a href="https://learn.microsoft.com/en-us/users/sunjit41/transcript/vjo2jh4n9g3j289"
+                                class="blue-link" target="_blank">View Profile</a>
+                        </div>
+                    </div>
+
+                    <div class="div-table-row" role="row">
+                        <div class="div-table-col">
                             <img src="/assets/images/badges/fundamentals.webp" class="product-img" alt="Microsoft Fundamentals">
                         </div>
                         <div class="div-table-col description-text">
-                            <h3>Microsoft Certification</h3>
+                            <h3>Microsoft Fundamental Certifications</h3>
                             <ul>
                                 <li>AI Business Professional (AB-730)</li>
                                 <li>AI Transformation Leader (AB-731)</li>
