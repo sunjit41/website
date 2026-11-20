@@ -42,6 +42,18 @@
                         <div class="logo-item"><img src="/assets/images/badges/bsc.webp"
                                 alt="Bachelors Degree in Computer Science from Bharathiar University"><span>Graduation</span>
                         </div>
+                        <div class="logo-item"><img src="/assets/images/badges/ab-100.webp"
+                                alt="AB-100 Badge"><span>Certification</span>
+                        </div>
+                        <div class="logo-item"><img src="/assets/images/badges/ai-103.webp"
+                                alt="AI-103 Badge"><span>Certification</span>
+                        </div>
+                        <div class="logo-item"><img src="/assets/images/badges/ai-200.webp"
+                                alt="AI-200 Badge"><span>Certification</span>
+                        </div>
+                        <div class="logo-item"><img src="/assets/images/badges/dp-800.webp"
+                                alt="DP-800 Badge"><span>Certification</span>
+                        </div>                                                
                         <div class="logo-item"><img src="/assets/images/badges/az-900.webp"
                                 alt="AZ-900 Badge"><span>Certification</span>
                         </div>
@@ -127,18 +139,26 @@
                     </li>
                     <li>Microsoft Certifications
                         <ul>
-                            <li>Azure AI Fundamentals (AI-901)</li>
+                            <li>Agentic AI Business Solutions Architect Expert(AB-100)</li>
+                            <li>Azure AI Apps and Agents Developer Associate (AI-103)</li>
+                            <li>Azure AI Cloud Developer Associate (AI-200)</li>
+                            <li>SQL AI Developer Associate (DP-800)</li>
                             <li>AI Business Professional (AB-730)</li>
                             <li>AI Transformation Leader (AB-731)</li>
+                            <li>Azure AI Fundamentals (AI-901)</li>
                             <li>Azure Fundamentals (AZ-900)</li>
                             <li>Security, Compliance, and Identity Fundamentals (SC-900)</li>
                             <li>Azure Data Fundamentals (DP-900)</li>
-                            <li>Github Foundations (GH-900)</li>
-                            <li>Github Administration (GH-100)</li>
-                            <li>Github Actions (GH-200)</li>
-                            <li>Github Copiot (GH-300)</li>
-                            <li>Github Advanced Security (GH-500)</li>
                         </ul>
+                    </li>
+                    <li>Github Certifications</li>
+                    <ul>
+                        <li>GitHub Administration (GH-100)</li>
+                        <li>GitHub Actions (GH-200)</li>
+                        <li>GitHub Copilot (GH-300)</li>
+                        <li>GitHub Advanced Security (GH-500)</li>
+                        <li>GitHub Foundations (GH-900)</li>
+                    </ul>
                     </li>
                     <li>freeCodeCamp.org Certifications
                         <ul>
