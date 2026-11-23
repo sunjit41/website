@@ -86,6 +86,7 @@
                         <div class="div-table-col description-text">
                             <h3>Applied Skills</h3>
                             <ul>
+                                <li>Resolve GitHub issues by using GitHub Copilot</li>
                                 <li>Configure secure access to your workloads using Azure networking</li>
                                 <li>Secure storage for Azure Files and Azure Blob Storage</li>
                                 <li>Get started with classes, properties, and methods in C#</li>
@@ -99,6 +100,27 @@
                                 class="blue-link" target="_blank">View Profile</a>
                         </div>
                     </div>
+
+                    <div class="div-table-row" role="row">
+                        <div class="div-table-col">
+                            <img src="/assets/images/badges/github.webp" class="product-img" alt="Github Certifica">
+                        </div>
+                        <div class="div-table-col description-text">
+                            <h3>Github Certifications</h3>
+                            <ul>
+                                <li>GitHub Administration (GH-100)</li>
+                                <li>GitHub Actions (GH-200)</li>
+                                <li>GitHub Copilot (GH-300)</li>
+                                <li>GitHub Advanced Security (GH-500)</li>
+                                <li>GitHub Agentic AI Developer (GH-600)</li>
+                                <li>GitHub Foundations (GH-900)</li>
+                            </ul>
+                        </div>
+                        <div class="div-table-col">
+                            <a href="https://learn.microsoft.com/en-us/users/sunjit41/transcript/vjo2jh4n9g3j289"
+                                class="blue-link" target="_blank">View Profile</a>
+                        </div>
+                    </div>                    
 
                     <div class="div-table-row" role="row">
                         <div class="div-table-col">
@@ -139,7 +161,7 @@
                             <img src="/assets/images/badges/fundamentals.webp" class="product-img" alt="Microsoft Fundamentals">
                         </div>
                         <div class="div-table-col description-text">
-                            <h3>Microsoft Fundamental Certifications</h3>
+                            <h3>Microsoft Beginner Certifications</h3>
                             <ul>
                                 <li>AI Business Professional (AB-730)</li>
                                 <li>AI Transformation Leader (AB-731)</li>
@@ -147,26 +169,6 @@
                                 <li>Azure Fundamentals (AZ-900)</li>
                                 <li>Azure Data Fundamentals (DP-900)</li>
                                 <li>Security, Compliance, and Identity Fundamentals (SC-900)</li>
-                            </ul>
-                        </div>
-                        <div class="div-table-col">
-                            <a href="https://learn.microsoft.com/en-us/users/sunjit41/transcript/vjo2jh4n9g3j289"
-                                class="blue-link" target="_blank">View Profile</a>
-                        </div>
-                    </div>
-
-                    <div class="div-table-row" role="row">
-                        <div class="div-table-col">
-                            <img src="/assets/images/badges/github.webp" class="product-img" alt="Github Certifica">
-                        </div>
-                        <div class="div-table-col description-text">
-                            <h3>Github Certification</h3>
-                            <ul>
-                                <li>GitHub Administration (GH-100)</li>
-                                <li>GitHub Actions (GH-200)</li>
-                                <li>GitHub Copilot (GH-300)</li>
-                                <li>GitHub Advanced Security (GH-500)</li>
-                                <li>GitHub Foundations (GH-900)</li>
                             </ul>
                         </div>
                         <div class="div-table-col">
