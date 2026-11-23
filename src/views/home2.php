@@ -72,9 +72,6 @@
                         <div class="logo-item"><img src="/assets/images/badges/ab-731.webp"
                                 alt="AB-731 Badge"><span>Certification</span>
                         </div>
-                        <div class="logo-item"><img src="/assets/images/badges/gh-900.webp"
-                                alt="gh-900 Badge"><span>Certification</span>
-                        </div>
                         <div class="logo-item"><img src="/assets/images/badges/gh-100.webp"
                                 alt="gh-100 Badge"><span>Certification</span>
                         </div>
@@ -87,6 +84,12 @@
                         <div class="logo-item"><img src="/assets/images/badges/gh-500.webp"
                                 alt="GH-500 Badge"><span>Certification</span>
                         </div>
+                        <div class="logo-item"><img src="/assets/images/badges/gh-600.webp"
+                                alt="GH-600 Badge"><span>Certification</span>
+                        </div>                        
+                        <div class="logo-item"><img src="/assets/images/badges/gh-900.webp"
+                                alt="gh-900 Badge"><span>Certification</span>
+                        </div>                        
                         <div class="logo-item"><img src="/assets/images/badges/netw.webp"
                                 alt="Networking"><span>Networking</span>
                         </div>
@@ -157,6 +160,7 @@
                         <li>GitHub Actions (GH-200)</li>
                         <li>GitHub Copilot (GH-300)</li>
                         <li>GitHub Advanced Security (GH-500)</li>
+                        <li>GitHub Agentic AI Developer (GH-600)</li>
                         <li>GitHub Foundations (GH-900)</li>
                     </ul>
                     </li>
